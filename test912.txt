@@ -1,1 +1,7 @@
 创建一个文件，push到一个新分支。
+
+
+本地新创建的文件在push之前都属于untracked文件，编辑保存退出后切换分支不会丢失更改，可以在任意branch上push。
+
+已经push过的文件就隶属于被push到的branch，所做的更改如果没有push会丢失。
+也许可以通过在当前文件通过git push -u XXX(仓库名) ZZZ(branch)来直接push到其他分支。
