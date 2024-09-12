@@ -1,1 +1,4 @@
 新建一个文件（untracked），直接提交到指定分支。
+
+
+git commit 就是将文件提交到当前分支，无法在通过git push -u XXX XXX提交到指定分支。
